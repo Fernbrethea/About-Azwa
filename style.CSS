@@ -1,0 +1,34 @@
+#style.CSS {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid#FAEBD7;
+  background-color:#D3D3D3 ;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: F0E68C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #D3D3D3;
+}
+</style>
+</head>
+<h1></h1>
+<nav class="navbar">
+
